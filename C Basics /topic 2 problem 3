@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+    float decimal = 3.14;
+    printf("%f",decimal);    
+    return 0;
+}
