@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+    double a = 13.1459;
+    printf("%lf",a);    
+    return 0;
+}
