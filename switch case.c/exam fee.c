@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main() { 
+    int category;
+    int fee = 0;
+
+    scanf("%d",&category);
+
+    switch(category) {
+        case 1:
+            fee = 1200;
+        break;
+
+        case 2:
+            fee = 800;
+        break;
+
+        case 3:
+            fee = 500;
+        break;
+
+        default:
+            printf("Invallid\n");
+        break;
+
+    }
+
+    printf("%d",fee);
+
+
+    return 0;
+}
