@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class main{
+    public static void main (String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        long[] nums = new long[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = scan.nextLong();
+        }
+        System.out.print(nums[0] + " " + nums[nums.length - 1]);
+    }
+}
